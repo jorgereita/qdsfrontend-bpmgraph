@@ -1,0 +1,47 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "content": {
+          "text": "Search",
+          "color": "#fab1a0"
+        },
+        "width": 150,
+        "height": 60,
+        "shape": "rectangle ",
+        "point": {
+          "x": 50,
+          "y": 242.2209625601816
+        }
+      },
+      {
+        "id": "2",
+        "content": {
+          "text": "Vue.js",
+          "url": "https://vuejs.org/",
+          "color": "red"
+        },
+        "width": 150,
+        "height": 60,
+        "point": {
+            "x": 300,
+            "y": 242.2209625601816
+        },
+        "shape": "rectangle "
+      }
+    ],
+    "links": [
+      {
+        "id": "1a",
+        "source": "2",
+        "destination": "1",
+        "point": {
+          "x": 300,
+          "y": 242.2209625601816
+        },
+        "color": "#55efc4",
+        "arrow": "dest"
+      }
+    ]
+  }
+  
